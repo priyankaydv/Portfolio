@@ -1,0 +1,214 @@
+.sidebar_image{
+    height: 150px;
+    width: 150px;
+    align-items: center;
+    border-radius: 50px;
+} 
+
+.sidebar_icon{
+    height: 30px;
+    width: 30px;
+}
+.logo{
+    height: 30px;
+    width: 30px;
+    border-radius: 23px;
+}
+.sidebar{
+    background-color: white;
+    height: 100%;
+   
+    padding: 25px 15px;
+    text-align: center;
+  }
+  .sidebar_name{
+      font-family: 'Times New Roman', Times, serif Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     
+      margin: 15px 0;
+  }
+  .sidebar_name>span{
+      color: black;
+      font-size: 25px;
+      background-color: rgb(253,106,106);
+      border-radius: 30px;
+
+  }
+  .sidebar_item{
+      margin: 6px;
+      padding-top: 6px;
+      height: 40px;
+      font-size: 1.05rem;
+     
+  }
+  .social-contact{
+      margin-top: 30px;
+  }
+  a{
+      text-decoration: none;
+      
+  }
+  a:hover{
+      text-decoration: none;
+     
+  }
+  .sidebar_title{
+      background-color: rgb(253,106,106);
+      border-radius: 30px;
+      
+  }
+.sidebar_contact{
+    background-color: rgb(253,106,106);
+    padding: 2px 0;
+    margin: 65px 0px 20px;
+}
+  .sidebar_email{
+    background-image: linear-gradient(white,black);
+   
+      border-radius: 30px;
+      color: black;
+      margin: 30px 20px 0px;
+      cursor: pointer;
+      transition: all 3s linear;
+
+  }
+.sidebar_email:hover{
+    transform: scale(1.2);
+}  
+
+.sidebar_resume:hover,
+.sidebar_github:hover,
+.sidebar_linkedin:hover,
+.sidebar_facebook:hover,
+.sidebar_instagram:hover{
+    cursor: pointer;
+   
+
+}
+@media(max-width:991px){
+    .app__main-content{
+        margin: 30px 0;
+    }
+    
+}
+
+.navbar_items{
+    display: flex;
+    
+    }
+
+.navbar_item{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:rgb(253,106,106);
+    text-decoration: none;
+    margin-right: 80px;
+    cursor: pointer;
+    
+}
+.navbar_item:hover{
+    background-color: -webkit-linear-gradient(white,white);
+    background-clip:text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:white;
+
+}
+
+.heading{
+    text-align: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 2rem;
+    color: rgb(253,106,106);
+    font-family: serif;
+
+}
+
+/*top bar*/
+.Topbar{
+    background-color: black;
+    height: 60px;
+}
+.Topbar h2{
+    justify-content: center;
+    text-align: center;
+    font-family: cursive;
+    color: white;
+}
+
+
+/*Skills page*/
+h4{
+    color: blue;
+    font-family: cursive;
+    background-color: white;
+}
+ul h3{
+    color: blue;
+    font-family: serif;
+
+}
+li{
+    color: white;
+    list-style-type:none;
+}
+.list{
+    margin-top: 50px;
+    text-align: center;
+}
+/*About page*/
+.intro h3{
+    float: right;
+    color: white;
+    margin-top: 80px;
+    margin-right:100px;
+    margin-bottom: 600px;
+}
+.intro h2 {
+    color: blue;
+    
+
+}
+.about img{
+    height: 350px;
+    width: 300px;
+    align-items: flex-end;
+    float: left;
+    margin-top: 80px;
+
+}
+
+/*projectCard.js Projects.js */
+
+.projects{
+    height: 72vh;
+    padding-top:30px ;
+    overflow-y:auto ;
+}
+
+.projectCard_wrapper{
+    margin: 10px 0;
+    width: 100%;
+    height: 100%;
+    min-height: 160px;
+    background-color: rgb(253,106,106);
+}
+.ProjectCard_image{
+    width: 100%;
+    height: 80%;
+    border: 10px solid black;
+
+}
+.ProjectCard_icon{
+    width: 25px;
+    height: 25px;
+}
+.project_Title{
+    margin-top: 12px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
